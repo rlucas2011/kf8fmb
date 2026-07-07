@@ -27,11 +27,12 @@ body {
             font-size: 16px;
         }
 
-         nav b {
+        .site-title {
             color: #fff;
             margin-right: 20px;
             text-decoration: none;
             font-size: 16px;
+            font-weight: bold;
         }
 
         p {
