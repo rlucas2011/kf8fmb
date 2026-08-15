@@ -43,7 +43,7 @@ body {
 
         .hero {
             height: 15vh;
-            background: url("cherryblossem.jpeg") center/cover no-repeat;
+            background: url("cherryblossem.jpg") center/cover no-repeat;
             display: flex;
             justify-content: center;
             align-items: center;
