@@ -1,0 +1,185 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="description" content="Ashland 4-H Dog Program information and interest forms">
+	<title>2026 Ashland 4-H Dog Program Information</title>
+	<style>
+		:root {
+			--ink: #17324d;
+			--muted: #526577;
+			--paper: #fffefa;
+			--sky: #eef6ee;
+			--gold: #e8a83e;
+			--line: #d8e1e5;
+		}
+
+		* { box-sizing: border-box; }
+
+		body {
+			margin: 0;
+			color: var(--ink);
+			background: var(--sky);
+			font-family: Georgia, "Times New Roman", serif;
+		}
+
+		.page {
+			min-height: 100vh;
+			padding: 32px 20px 56px;
+			background:
+				radial-gradient(circle at 10% 8%, rgba(117, 157, 117, .12), transparent 22rem),
+				linear-gradient(145deg, #eef6ee 0%, #f8faf3 58%, #f1f4e9 100%);
+		}
+
+		header,
+		main,
+		footer {
+			width: min(100%, 980px);
+			margin: 0 auto;
+		}
+
+		header {
+			padding: 12px 0 28px;
+			border-bottom: 1px solid rgba(23, 50, 77, .2);
+		}
+
+		.eyebrow {
+			margin: 0 0 10px;
+			color: #9a641b;
+			font: 700 12px/1.2 Arial, sans-serif;
+			letter-spacing: 2px;
+			text-transform: uppercase;
+		}
+
+		h1 {
+			max-width: 720px;
+			margin: 0;
+			font-size: clamp(2.3rem, 7vw, 5rem);
+			line-height: .95;
+			letter-spacing: 0;
+		}
+
+		.intro {
+			max-width: 680px;
+			margin: 28px 0 34px;
+			color: var(--muted);
+			font-size: 1.2rem;
+			line-height: 1.55;
+		}
+
+		.resource-grid {
+			display: grid;
+			grid-template-columns: repeat(2, minmax(0, 1fr));
+			gap: 18px;
+		}
+
+		.resource {
+			display: flex;
+			min-height: 250px;
+			flex-direction: column;
+			justify-content: space-between;
+			padding: 26px;
+			background: var(--paper);
+			border: 1px solid var(--line);
+			box-shadow: 0 18px 45px rgba(23, 50, 77, .1);
+		}
+
+		.resource h2 {
+			margin: 0 0 12px;
+			font-size: 1.8rem;
+			line-height: 1.05;
+		}
+
+		.resource p {
+			margin: 0;
+			color: var(--muted);
+			font: 16px/1.6 Arial, sans-serif;
+		}
+
+		.resource-label {
+			margin: 0 0 14px;
+			color: #9a641b;
+			font: 700 12px/1.2 Arial, sans-serif;
+			letter-spacing: 1.5px;
+			text-transform: uppercase;
+		}
+
+		.resource-link {
+			display: inline-block;
+			margin-top: 28px;
+			padding: 14px 20px;
+			border-radius: 3px;
+			background: var(--ink);
+			color: #fff;
+			font: 700 15px/1.2 Arial, sans-serif;
+			text-decoration: none;
+			transition: background-color .2s ease, transform .2s ease;
+		}
+
+		.resource-link:hover,
+		.resource-link:focus-visible {
+			background: #285678;
+			transform: translateY(-2px);
+		}
+
+		.flyer-note {
+			margin-top: 28px !important;
+			padding-top: 14px;
+			border-top: 1px solid var(--line);
+			font-size: 13px !important;
+		}
+
+		footer {
+			margin-top: 24px;
+			color: var(--muted);
+			font: 13px/1.5 Arial, sans-serif;
+		}
+
+		@media (max-width: 680px) {
+			.page { padding: 18px 12px 36px; }
+			.resource-grid { grid-template-columns: 1fr; }
+			.resource { min-height: 0; }
+		}
+	</style>
+</head>
+<body>
+	<div class="page">
+		<header>
+			<p class="eyebrow">Ashland 4-H</p>
+			<h1>Dog Committee Programming Information</h1>
+            <h2> 4-H Dog Program & PetPals</h2>
+		</header>
+
+		<main>
+			<p class="intro">
+				Interested in the Ashland 4-H Dog or PetPals Programs for 2027? <br> <br>
+                Use the resources below to share your interest, and we will reach out with you regarding the 2027 program!
+
+                <br> <br>
+                Please note that both programs are only open for those in 4th grade and up. We unfortunately don't have Cloverbud Programming.
+			</p>
+
+			<section class="resource-grid" aria-label="Dog Program resources">
+				<article class="resource">
+					<div>
+						<p class="resource-label">Google Forms</p>
+						<h2>Interest Form</h2>
+						<p>Fill out this survey to sign up for information regarding the 2027 Dog & PetPals Programs.</p>
+					</div>
+					<a class="resource-link" href="https://forms.gle/T7NjTrRNkYSWz1bC8" target="_blank" rel="noopener noreferrer">Open the interest form</a>
+				</article>
+
+				<article class="resource">
+					<div>
+						<p class="resource-label">Program Resources</p>
+						<h2>Dog Program Flyer</h2>
+						<p>Review the program flyer for details about the 4-H Dog Program.</p>
+					</div>
+					<a class="resource-link" href="../Dog%20Program%20Flyer.pdf" target="_blank" rel="noopener noreferrer">View the program flyer</a>
+				</article>
+			</section>
+		</main>
+	</div>
+</body>
+</html>
