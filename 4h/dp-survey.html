@@ -1,0 +1,166 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="description" content="Ashland 4-H Dog Program Survey">
+	<title>2026 Ashland 4-H Dog Program Survey</title>
+	<style>
+		:root {
+			--ink: #17324d;
+			--muted: #526577;
+			--paper: #fffdf8;
+			--sky: #e6f1f5;
+			--gold: #e8a83e;
+			--line: #d8e1e5;
+		}
+
+		* { box-sizing: border-box; }
+
+		body {
+			margin: 0;
+			color: var(--ink);
+			background: var(--sky);
+			font-family: Georgia, "Times New Roman", serif;
+		}
+
+		.page {
+			min-height: 100vh;
+			padding: 32px 20px 56px;
+			background:
+				radial-gradient(circle at 10% 8%, rgba(232, 168, 62, .18), transparent 22rem),
+				linear-gradient(145deg, #e6f1f5 0%, #f8f5ed 58%, #f0e7d3 100%);
+		}
+
+		header,
+		main {
+			width: min(100%, 980px);
+			margin: 0 auto;
+		}
+
+		header {
+			display: flex;
+			justify-content: space-between;
+			align-items: end;
+			gap: 24px;
+			padding: 12px 0 28px;
+			border-bottom: 1px solid rgba(23, 50, 77, .2);
+		}
+
+		.eyebrow {
+			margin: 0 0 10px;
+			color: #9a641b;
+			font: 700 12px/1.2 Arial, sans-serif;
+			letter-spacing: 2px;
+			text-transform: uppercase;
+		}
+
+		h1 {
+			max-width: 620px;
+			margin: 0;
+			font-size: clamp(2.3rem, 7vw, 5rem);
+			line-height: .95;
+			letter-spacing: 0;
+		}
+
+		.intro {
+			max-width: 660px;
+			margin: 28px 0 24px;
+			color: var(--muted);
+			font-size: 1.2rem;
+			line-height: 1.55;
+		}
+
+		.form-shell {
+			overflow: hidden;
+			background: var(--paper);
+			border: 1px solid var(--line);
+			box-shadow: 0 18px 45px rgba(23, 50, 77, .12);
+		}
+
+		.form-heading {
+			display: flex;
+			justify-content: space-between;
+			align-items: center;
+			gap: 20px;
+			padding: 18px 22px;
+			border-bottom: 1px solid var(--line);
+			font: 700 14px/1.3 Arial, sans-serif;
+		}
+
+		.form-heading span { color: var(--muted); font-weight: 400; }
+
+		.form-copy {
+			padding: 34px 28px 38px;
+			text-align: center;
+			color: var(--muted);
+			font: 16px/1.6 Arial, sans-serif;
+		}
+
+		.form-copy p {
+			max-width: 560px;
+			margin: 0 auto 24px;
+		}
+
+		.form-link {
+			display: inline-block;
+			padding: 14px 24px;
+			border-radius: 3px;
+			background: var(--ink);
+			color: #fff;
+			font: 700 15px/1.2 Arial, sans-serif;
+			text-decoration: none;
+			transition: background-color .2s ease, transform .2s ease;
+		}
+
+		.form-link:hover,
+		.form-link:focus-visible {
+			background: #285678;
+			transform: translateY(-2px);
+		}
+
+		footer {
+			width: min(100%, 980px);
+			margin: 24px auto 0;
+			color: var(--muted);
+			font: 13px/1.5 Arial, sans-serif;
+		}
+
+		@media (max-width: 560px) {
+			.page { padding: 18px 12px 36px; }
+			header { padding-bottom: 22px; }
+			.form-heading { align-items: start; flex-direction: column; gap: 4px; }
+			.form-copy { padding: 28px 18px 32px; }
+		}
+	</style>
+</head>
+<body>
+	<div class="page">
+		<header>
+			<div>
+				<p class="eyebrow">Community feedback</p>
+				<h1>2026 Ashland 4-H Dog Program Survey</h1>
+			</div>
+		</header>
+
+		<main>
+			<p class="intro">
+				Your opinion matters! Please take a few minutes to complete this survey so we can understand what is working well and where the program can grow.	
+			</p>
+
+			<section class="form-shell" aria-label="4-H Dog Program Survey form">
+				<div class="form-heading">
+					<strong>Share your feedback</strong>
+					<span>Google Forms survey</span>
+				</div>
+				<div class="form-copy">
+					<p>Select the button below to open the survey in Google Forms and submit your responses.</p>
+					<a class="form-link" href="https://forms.gle/NxMDfqaQMbvQMMUD7" target="_blank" rel="noopener noreferrer">Open the survey</a>
+				</div>
+			</section>
+		</main>
+
+		<footer>Thank you for helping improve the Ashland 4-H Dog Program!!!</footer>
+	</div>
+</body>
+</html>
